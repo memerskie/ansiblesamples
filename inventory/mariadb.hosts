@@ -1,6 +1,2 @@
-#[all:vars]
-#ansible_ssh_common_args='-o StrictHostKeyChecking=no'
-
 [mariadbs]
 localhost
-#mariadb ansible_ssh_host=localhost ansible_ssh_port=22 ansible_user=root
