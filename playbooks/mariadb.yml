@@ -21,7 +21,7 @@
         immediate: yes
     - name: Install MariaDB server
       apt: 
-        name:MariaDB-server
+        name: MariaDB-server
         state: latest
     - name: start MariaDB service
       systemd:
