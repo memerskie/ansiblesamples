@@ -4,7 +4,7 @@
   tasks:
     - name: Install MariaDB server
       apt: 
-        name: MariaDB-server
+        name: mariadb-server
         state: latest
     - name: start MariaDB service
       systemd:
